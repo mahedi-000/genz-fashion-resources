@@ -207,3 +207,54 @@ main{
   font-size: 36px;
   font-weight: 900;
 }
+footer {
+  margin: 0 90px 80px 90px;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;               
+}
+
+.left-group {
+  display: flex;
+  flex-direction: column;  
+  gap: 15px;    
+            
+}
+.left-footer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 495px;
+  height: 135px;
+  border-radius: 20px;
+  background: #fff;
+  padding: 10px 30px;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid whitesmoke;
+  margin-bottom: 20px;
+}
+.left-desc h1 {
+  color: #363958;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.left-desc p {
+  color: #3e3e3e;
+  font-size: 16px;
+  font-weight: 400;
+}
+.house {
+  width: 78px;
+  height: 82px;
+}
+.right-footer {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+}
+.right-footer img {
+  width: 700px;  
+  height: auto;
+}
