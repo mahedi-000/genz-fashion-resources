@@ -139,3 +139,71 @@ nav{
     margin-top: 100px;
     margin-left: 230px;
 }
+main{
+  margin: 60px 90px 0 90px;
+}
+.heading {
+  color: #363958;
+  font-size: 48px;
+  font-weight: 400;
+}
+.clothes {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 80px;
+}
+.clothes-card {
+  width: 385px;
+  border-radius: 20px;
+  background: #ffffff;
+  border: 2px solid whitesmoke;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+.clothes-image {
+  width: 380px;
+  height: auto;
+  background: #d3d3d380;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.clothes-image img {
+  padding: 12px 0;
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+}
+
+.clothes-details {
+  margin-top: 20px;
+}
+
+.clothes-details h1 {
+  color: #363958;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.clothes-details p {
+  color: #3e3e3e;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  color: #fabe4c;
+  font-size: 36px;
+  font-weight: 900;
+}
